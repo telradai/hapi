@@ -1,0 +1,6 @@
+version: "3"
+services:
+  hapi-fhir-jpaserver-start:
+    image: smartonfhir/hapi-5:r5-empty
+    ports:
+      - "8080:8080"
